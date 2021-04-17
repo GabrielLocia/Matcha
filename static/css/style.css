@@ -1,9 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
-    color: #025157;
+body{
+    background-color: #fffbf7;
+    font-family: "Open Sans", sans-serif;
 }
+
+h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+  }
+
+  
+h4 {
+  color: #46484c;
+  font-family: "Slabo", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+header .row  
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    margin: 10px 20px ;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+div img{    
+    width: 50px;
+}
+
+.linkLogo {
+    text-decoration: none;
+    color: #025157;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    padding-right: 320px;
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 8px;
+    color: #025157;
+    font-size: 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.actionButton{
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.menu form a{
+    text-decoration: none;
+    padding-right: 15px;
+    color:#67b54b;
+    font-weight: bold;
+}
+
+
+main {
+    margin-top: 285px;
+    text-align: center;
+  }
+
+  h4 {
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  button{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+  }
+
+  p{
+      color: #8b8b8bcc;
+  }
+
+  input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+  }
+
+  
+input,
+button {
+  height: 100%;
+  border-radius: 8px;
+}
+
+form {
+    height: 55px;
+    padding-bottom: 10px ;
+  }
+
+  figure {
+    margin-top: 32px;
+  }
+  
+  .banner > img {
+    width: 100%;
+  }
